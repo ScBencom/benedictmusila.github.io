@@ -1,0 +1,84 @@
+HOW TO ADD YOUR PROFILE PHOTO
+================================
+
+STEP 1: PREPARE YOUR PHOTO
+---------------------------
+✓ Use a professional headshot
+✓ Good lighting, clear face, solid or simple background
+✓ Business casual or formal attire
+✓ Square or portrait orientation works best
+✓ Smile naturally and look confident
+
+STEP 2: OPTIMIZE YOUR IMAGE
+----------------------------
+Recommended specifications:
+- Size: 800x800 pixels (or 1000x1000 for high resolution)
+- Format: JPG or PNG
+- File size: Under 500KB for fast loading
+- Quality: High quality, but compressed for web
+
+Tools to resize/compress:
+- Online: tinypng.com, squoosh.app, or iloveimg.com
+- Mac: Preview app (Tools > Adjust Size)
+- Windows: Paint or Photos app
+
+STEP 3: SAVE YOUR PHOTO
+------------------------
+Save your photo with ONE of these names:
+✓ profile.jpg  (recommended)
+✓ profile.png
+
+Place it in THIS folder:
+/Users/benedictmusila/Documents/Personalised/MyPortfolio/assets/
+
+STEP 4: VERIFY
+--------------
+After adding your photo:
+1. Open index.html in your browser (or refresh if already open)
+2. You should see your photo at the top of the page
+3. It will be displayed as a circular professional headshot
+
+SUPPORTED FILE NAMES
+---------------------
+The website is currently configured to look for:
+- assets/profile.jpg
+
+If you want to use a different filename (like profile.png), 
+update line 63 in index.html:
+<img src="assets/profile.jpg" ...>
+Change to:
+<img src="assets/profile.png" ...>
+
+TROUBLESHOOTING
+---------------
+Photo not showing?
+1. Check the filename is exactly "profile.jpg" (lowercase)
+2. Make sure it's in the assets folder
+3. Try refreshing your browser (Ctrl+F5 or Cmd+Shift+R)
+4. Check browser console for errors (F12 > Console)
+
+Photo looks stretched?
+- Make sure your photo is roughly square (same width and height)
+- The website will automatically crop it to a circle
+
+Photo file too large?
+- Compress it using tinypng.com or squoosh.app
+- Aim for under 500KB for fast loading
+
+TIPS FOR BEST RESULTS
+----------------------
+✓ Natural, professional smile
+✓ Eye contact with the camera
+✓ Simple, non-distracting background
+✓ Good contrast (your face stands out from background)
+✓ Professional attire appropriate for your industry
+✓ Recent photo (within last 1-2 years)
+
+Your photo will appear:
+- At the top of the homepage (Hero section)
+- As a circular professional headshot
+- With hover effect (slight zoom on mouse over)
+- Responsive on all devices (mobile, tablet, desktop)
+
+Once you add your photo, your website will be complete! 🎉
+

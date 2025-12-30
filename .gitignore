@@ -1,0 +1,55 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependencies (if you later add npm/node)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build Output (if you later add a build process)
+dist/
+build/
+.cache/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Personal / Private Files (uncomment if needed)
+# assets/Benedict_Musila_CV.pdf
+
+# Backup Files
+*.bak
+*.backup
+
