@@ -1,0 +1,30 @@
+# robots.txt for benedictmusila.github.io
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://benedictmusila.github.io/sitemap.xml
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Disallow access to documentation files (optional - remove if you want them indexed)
+Disallow: /README.md
+Disallow: /SETUP_GUIDE.md
+Disallow: /UPDATES_FROM_LINKEDIN.md
+Disallow: /CONTACT_FORM_INFO.md
+Disallow: /GITHUB_PAGES_DEPLOYMENT.md
+Disallow: /assets/README.txt
+Disallow: /assets/PHOTO_INSTRUCTIONS.txt
+
